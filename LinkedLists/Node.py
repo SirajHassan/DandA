@@ -7,6 +7,7 @@ class Node():
     data = None #no type
 
 
+
     def __init__ (self,data):
         self.data = data
 
@@ -15,3 +16,5 @@ class Node():
 
     def set_data(self,new_data):
         self.data = new_data
+
+    
